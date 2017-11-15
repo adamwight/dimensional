@@ -8,7 +8,7 @@
 
 const char* GTKCONFIG = "dimensional-gtk.xml";
 
-main(int argc, char **argv)
+int main(int argc, char **argv)
 {
     gtk_set_locale ();
     gtk_init (&argc, &argv);
